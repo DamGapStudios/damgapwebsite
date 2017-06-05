@@ -1,23 +1,27 @@
-import React, { Component } from 'react';
-import logo from '../logo.svg';
+import React from 'react';
 import './App.css';
+import Projects from './Projects/Projects';
+import Home from './Home/Home'
+import About from './About/About'
 import Header from "../Components/header/header";
 
-class App extends Component {
-  render() {
-    return (
-      <div className="App">
-          <Header/>
-        <div className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <h2>Welcome to React</h2>
+import {
+    BrowserRouter as Router,
+    Route
+} from 'react-router-dom'
+
+const App = () => (
+    <Router>
+        <div>
+            <Header/>
+
+            <hr/>
+
+            <Route exact path="/" component={Home}/>
+            <Route path="/about" component={About}/>
+            <Route path="/projects" component={Projects}/>
         </div>
-        <p className="App-intro">
-          To get started, edit <code>src/App.js</code> and save to reload.
-        </p>
-      </div>
-    );
-  }
-}
+    </Router>
+)
 
 export default App;
