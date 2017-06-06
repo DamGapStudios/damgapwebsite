@@ -12,7 +12,7 @@ export default class ProjectBlock extends Component {
                 <section className="hero" style={{backgroundColor: this.props.color}}>
                     <div className="hero-body">
                         <div className="container">
-                            <img src={this.props.image} alt="" className="heroImage" style={{boxShadow: '10px 10px 20px' + this.props.accent}}/>
+                            <img src={this.props.image} alt="" className="heroImage" style={{boxShadow: '5px 5px 10px' + this.props.accent}}/>
 
                             <div className="innerContainer">
                                 <h1 className="title" style={{color: this.props.accent}}>
