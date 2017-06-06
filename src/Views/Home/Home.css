@@ -1,0 +1,7 @@
+.hero.is-primary{
+    background-color: #BA3945;
+}
+
+.hero.is-primary:hover{
+    background-color: green;
+}
