@@ -1,10 +1,15 @@
 import React from 'react';
-import './App.css';
-import Projects from './Projects/Projects';
-import Home from './Home/Home'
-import About from './About/About'
-import Header from "../Components/header/header";
+import './App.scss';
+import 'bulma/css/bulma.css';
 
+// VIEWS
+import Home from './Home/Home';
+import Projects from './Projects/Projects';
+import About from './About/About';
+import Blog from "./Blog/Blog";
+
+// COMPONENTS
+import Header from "../Components/header/header";
 import {
     BrowserRouter as Router,
     Route
@@ -15,11 +20,10 @@ const App = () => (
         <div>
             <Header/>
 
-            <hr/>
-
             <Route exact path="/" component={Home}/>
             <Route path="/about" component={About}/>
             <Route path="/projects" component={Projects}/>
+            <Route path="/blog" component={Blog}/>
         </div>
     </Router>
 )
