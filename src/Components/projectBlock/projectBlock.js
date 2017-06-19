@@ -3,6 +3,7 @@
  */
 import React, { Component } from 'react';
 import './projectBlock.css'
+import {Section, HeroBody, Container} from 'bloomer'
 
 export default class ProjectBlock extends Component {
 
@@ -10,9 +11,9 @@ export default class ProjectBlock extends Component {
         return (
             <div>
                 
-                <section className="hero project" style={{backgroundColor: this.props.color}}>
-                    <div className="hero-body">
-                        <div className="container">
+                <Section className="project" style={{backgroundColor: this.props.color}}>
+                    <HeroBody>
+                        <Container className="project-container">
                             <img src={this.props.image} alt="" className="heroImage" style={{boxShadow: '5px 5px 10px' + this.props.accent}}/>
 
                             <div className="innerContainer">
@@ -23,9 +24,9 @@ export default class ProjectBlock extends Component {
                                     { this.props.description }
                                 </h2>
                             </div>
-                        </div>
-                    </div>
-                </section>
+                        </Container>
+                    </HeroBody>
+                </Section>
 
             </div>
         );
