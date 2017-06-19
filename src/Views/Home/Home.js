@@ -25,8 +25,8 @@ class Home extends Component {
                 </Hero>
 
 
-                <Section>
-                    <Columns>
+                <Section className="wwa">
+                    <Columns isVCentered>
                         <Column isMobile={12} isDesktop={5}>
                             <Notification hasTextAlign='centered' className="wwa"> <Title isSize={2}>What we do</Title></Notification>
                         </Column>
