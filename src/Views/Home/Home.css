@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Old+Standard+TT');
+
 .hero.is-primary{
     background-color: #BA3945;
 }
@@ -5,3 +7,18 @@
 /*.hero.is-primary:hover{*/
     /*background-color: green;*/
 /*}*/
+
+.wwa{
+    background: transparent;
+    font-family: 'Old Standard TT', serif;
+    padding: 10px;
+}
+
+.wwa.title{
+    text-align: center;
+    margin: 0;
+}
+
+.wwa.content {
+    text-align: center;
+}
