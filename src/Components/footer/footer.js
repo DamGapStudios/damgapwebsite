@@ -2,10 +2,9 @@
  * Created by Adunh on 6/19/2017.
  */
 import React, { Component } from 'react';
-import { Link } from 'react-router-dom';
 import './footer.css'
 import FontAwesome from 'react-fontawesome';
-import {Footer, Container, Content, Columns, Column, Level, LevelLeft, LevelRight, LevelItem, Subtitle, Control, Field, Input, Button} from 'bloomer'
+import {Footer, Level, LevelLeft, LevelRight, LevelItem, Subtitle} from 'bloomer'
 
 
 export default class PageFooter extends Component {
