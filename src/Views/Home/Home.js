@@ -5,6 +5,7 @@ import React, { Component } from 'react';
 import './Home.css'
 import {Hero, HeroBody, Container, Title, Section, Columns, Column, Notification, Content} from 'bloomer'
 import FontAwesome from 'react-fontawesome';
+import WorkWith from '../../Components/workWith/workWith'
 
 class Home extends Component {
 
@@ -17,7 +18,7 @@ class Home extends Component {
                     <HeroBody>
                         <Container hasTextAlign='centered'>
                             {/*Slider Here*/}
-                            <Title><span className="text-develop">Develop</span> | <span className="text-create">Create</span> | <span className="text-impress">Impress</span></Title>
+                            <Title><span className="titleText develop">Develop</span> | <span className="titleText create">Create</span> | <span className="titleText impress">Impress</span></Title>
                         </Container>
                     </HeroBody>
 
@@ -51,7 +52,7 @@ class Home extends Component {
                     </Columns>
                 </Section>
 
-                {/*Work With Element Here*/}
+                <WorkWith/>
 
             </div>
         );

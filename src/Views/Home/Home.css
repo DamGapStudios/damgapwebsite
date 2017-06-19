@@ -2,6 +2,12 @@
 
 .hero.is-primary{
     background-color: #BA3945;
+    color: #08415C;
+}
+
+.titleText{
+    color: #08415C;
+    font-weight: bold;
 }
 
 /*.hero.is-primary:hover{*/
