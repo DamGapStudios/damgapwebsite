@@ -9,7 +9,8 @@ export default class ProjectBlock extends Component {
     render() {
         return (
             <div>
-                <section className="hero" style={{backgroundColor: this.props.color}}>
+                
+                <section className="hero project" style={{backgroundColor: this.props.color}}>
                     <div className="hero-body">
                         <div className="container">
                             <img src={this.props.image} alt="" className="heroImage" style={{boxShadow: '5px 5px 10px' + this.props.accent}}/>
