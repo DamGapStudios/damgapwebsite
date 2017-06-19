@@ -3,9 +3,16 @@
 }
 
 a.nav-item {
-    color: white
+    color: white;
+    background-color: #BA3945
 }
+
+.brand {
+    color: white;
+}
+
 
 a.nav-item:hover {
     color: white;
+    background-color: #eea29a;
 }
