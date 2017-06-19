@@ -15,8 +15,8 @@ export default class WorkWith extends Component {
 
                     <HeroBody>
                         <Container hasTextAlign='centered' className="contact-form">
-                            <Title className="contact-form title">Want To Work With Us?</Title>
-                            <Subtitle isSize={4} className="contact-form">Fill out the form below and well get in contact</Subtitle>
+                            <Title className="contact-form title">{ this.props.title }</Title>
+                            <Subtitle isSize={4} className="contact-form">Fill out the form below to get started</Subtitle>
                             <Columns>
                                 <Column isDesktop={6}>
                                     <Field>

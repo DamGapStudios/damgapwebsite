@@ -52,7 +52,7 @@ class Home extends Component {
                     </Columns>
                 </Section>
 
-                <WorkWith/>
+                <WorkWith title="Want to work with us?"/>
 
             </div>
         );
