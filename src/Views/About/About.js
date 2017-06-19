@@ -2,7 +2,7 @@
  * Created by apdun on 6/5/2017.
  */
 import React, { Component } from 'react';
-import {Container, Column, Columns, Box, Hero, HeroBody, Title, Section, Content} from 'bloomer';
+import {Column, Columns, Section, Content} from 'bloomer';
 import FontAwesome from 'react-fontawesome';
 import './About.css'
 
@@ -11,13 +11,6 @@ class About extends Component {
     render() {
         return (
             <div>
-                {/*<Hero>*/}
-                    {/*<HeroBody className="hero is-primary" isSize="medium">*/}
-                        {/*<Container hasTextAlign='centered'>*/}
-                            {/*<Title>About Us</Title>*/}
-                        {/*</Container>*/}
-                    {/*</HeroBody>*/}
-                {/*</Hero>*/}
 
                 <Section className="mission">
                     <Content>
