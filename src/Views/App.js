@@ -11,6 +11,7 @@ import Blog from "./Blog/Blog";
 
 // COMPONENTS
 import Header from "../Components/header/header";
+import PageFooter from "../Components/footer/footer";
 import {
     BrowserRouter as Router,
     Route
@@ -25,6 +26,8 @@ const App = () => (
             <Route path="/about" component={About}/>
             <Route path="/projects" component={Projects}/>
             <Route path="/blog" component={Blog}/>
+
+            <PageFooter/>
         </div>
     </Router>
 )
