@@ -42,7 +42,7 @@ class About extends Component {
                                 </p>
                             </div>
                         </Columns>
-                        <Columns>
+                        <Columns isCentered>
                             <Column isMobile={12} isDesktop={6}>
                                 <div  className="whoWeAre profile">
                                     <h3 className="whoWeAre titleProfile" >Adrian Dunham</h3>

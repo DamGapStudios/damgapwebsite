@@ -3,7 +3,7 @@
  */
 import React, { Component } from 'react';
 import './projectBlock.css'
-import {Section, HeroBody, Container} from 'bloomer'
+import {Section, HeroBody, Container, Button, Columns, Column} from 'bloomer'
 
 export default class ProjectBlock extends Component {
 
@@ -13,17 +13,27 @@ export default class ProjectBlock extends Component {
                 
                 <Section className="project" style={{backgroundColor: this.props.color}}>
                     <HeroBody>
-                        <Container className="project-container">
-                            <img src={this.props.image} alt="" className="heroImage" style={{boxShadow: '5px 5px 10px' + this.props.accent}}/>
+                        <Container>
+                            <Columns>
+                                <Column isMobile={12} isDesktop={4}>
+                                    <img src={this.props.image} alt="" className="heroImage" style={{border: `solid 2px` + this.props.accent}}/>
+                                </Column>
 
-                            <div className="innerContainer">
-                                <h1 className="title" style={{color: this.props.accent}}>
-                                    { this.props.name }
-                                </h1>
-                                <h2 className="subtitle" style={{color: this.props.accent}}>
-                                    { this.props.description }
-                                </h2>
-                            </div>
+                                <Column isMobile={12} isDesktop={8}>
+                                    <h1 className="title" style={{color: this.props.accent}}>
+                                        { this.props.name }
+                                    </h1>
+                                    <h2 className="subtitle" style={{color: this.props.accent}}>
+                                        { this.props.description }
+                                    </h2>
+                                    <Button style={{backgroundColor: this.props.color, border: `2px solid`+ this.props.accent}} isSize="medium" className="link">
+                                        <a  href={this.props.url} style={{ color: this.props.accent}} >
+                                            Visit
+                                        </a>
+                                    </Button>
+                                </Column>
+                            </Columns>
+
                         </Container>
                     </HeroBody>
                 </Section>
