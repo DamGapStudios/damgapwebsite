@@ -1,0 +1,47 @@
+.contact-form{
+    background: #08415C;
+}
+
+.contact-form.title {
+    color: #EEE5E9;
+    padding-bottom: 10px;
+}
+
+.contact-form.subtitle {
+    color: #EEE5E9;
+}
+
+.contact-form.label{
+    color: #EEE5E9;
+}
+
+.contact-form.input{
+    border: none;
+    border-bottom: solid #BA3945 3px;
+    color:#EEE5E9;
+    box-shadow: none;
+}
+
+.contact-form.textarea{
+    border: none;
+    border-bottom: solid #BA3945 3px;
+    color:#EEE5E9;
+    box-shadow: none;
+}
+
+
+.contact-form.textarea::placeholder{
+    color: #EEE5E9;
+}
+
+.contact-form.button{
+    color:#EEE5E9;
+    border: 1px solid #EEE5E9;
+}
+
+
+.contact-form.button:hover{
+    background: #BA3945;
+    color:#EEE5E9;
+    border: none;
+}
