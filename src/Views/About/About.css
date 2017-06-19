@@ -1,7 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Old+Standard+TT');
 
 .mission{
-    background: #08415C;
     font-family: 'Old Standard TT', serif;
     color: white;
     text-align: center;
@@ -14,3 +13,24 @@
 .mission.section {
     background: #A4C2A8;
 }
+
+.whoWeAre {
+    background: #08415C;
+    text-align: center;
+    color: white;
+}
+
+h1.whoWeAre, h2.whoWeAre, h3.whoWeAre, h4.whoWeAre {
+    color:#EEE5E9;
+}
+
+.profile {
+    border-left: solid 5px #BA3945;
+    padding-left: 5px;
+}
+
+.subProfile, .titleProfile {
+    text-align: left;
+    color: #EEE5E9;
+}
+
