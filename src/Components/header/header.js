@@ -41,7 +41,7 @@ export default class Header extends Component {
                         <Link to="/" className="nav-item">Home</Link>
                         <Link to="/about" className="nav-item">About</Link>
                         <Link to="/projects" className="nav-item">Projects</Link>
-                        <Link to="/blog" className="nav-item">Blog</Link>
+                        {/*<Link to="/blog" className="nav-item">Blog</Link>*/}
                     </NavRight>
                 </Nav>
 
