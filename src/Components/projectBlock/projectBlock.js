@@ -16,6 +16,9 @@ export default class ProjectBlock extends Component {
                         <Container>
                             <Columns>
                                 <Column isMobile={12} isDesktop={4}>
+                                    {/*<iframe src="http://www.ashleytlee.com" style={{border: `solid 2px` + this.props.accent, width: '100%'}} className="heroImage">*/}
+                                        {/*<p> Your browser does not support iframes</p>*/}
+                                    {/*</iframe>*/}
                                     <img src={this.props.image} alt="" className="heroImage" style={{border: `solid 2px` + this.props.accent}}/>
                                 </Column>
 
